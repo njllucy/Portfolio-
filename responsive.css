@@ -1,0 +1,61 @@
+@media(max-width:480px){ 
+    .head-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+         gap:0px;
+    }
+    .line-flex > h1{
+        font-size:30px;
+    }
+    #line{
+        margin-top:6px;
+        width: 3px;
+        height: 60px;
+        background-color: rgb(238, 75, 75);
+    }
+    .mission-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dev-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:70px;
+        margin: 0px 0px;
+    }
+    .orange-circle{
+        visibility: hidden;
+    }
+    .devimg{
+          margin-left: -7.5rem;
+    }
+    .dev-text{
+        text-align: center;
+    }
+    .orange-circle2{
+        visibility: hidden;
+    }
+    .dev-flex2{
+        flex-direction: column-reverse;
+        gap: 400px;
+    }
+    .devimg2{
+        margin-left: -12.5rem;
+    }
+    #btn,button{
+       width: 50%;
+    }
+    .coronapics{
+        flex-direction: column;
+        gap:10px;
+    }
+    .coronahead{
+        font-size: 30px;
+    }
+    .corona-lp{
+       margin-left: 5rem;
+    }
+}

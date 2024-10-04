@@ -1,0 +1,173 @@
+/* head section starts  */
+.head-lp{
+    margin-top: 8rem;
+}
+#heading{
+    font-family: "Yeseva One", serif;
+    font-weight: 100;
+}
+.line-flex{
+    display: flex;
+    gap:10px;
+}
+.line-flex > h1{
+    font-size: 50px;
+}
+.head-flex{
+    display: flex;
+    justify-content: center;
+    gap:15rem;
+    /* justify-content: space-around; */
+}
+#line{
+    margin-top: 11px;
+    width: 3px;
+    height: 95px;
+    background-color: rgb(238, 75, 75);
+}
+#imgtop{
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+#color{
+    color:#FFAD5A;
+}
+#btn , button{
+    color: white;
+    font-weight: 300;
+    width: 40%;
+    height: 35px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    box-shadow:rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+/* head section ends  */
+/* my mission section starts  */
+.align{
+    text-align: center;
+}
+.mission-cards{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.Mcard{
+    border-radius: 20px;
+    width:270px;
+    height: 270px;
+    background-color: #ccf4f8e1;
+    padding: 20px 30px;
+    box-shadow:rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+.img-size{
+    width:126px;
+    height: 126px;
+}
+/* my mission section ends  */
+/* develop section starts  */
+.dev-flex{
+    display: flex;
+    justify-content: center;
+    gap:300px;
+    margin: 40px 145px;
+}
+.dev-text{
+    padding: 80px 10px;
+}
+.devimg{
+    /* visibility: hidden; */
+    margin-top: -18rem;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.orange-circle{
+    position: relative;
+    width:150px;
+    height: 150px;
+    border: 50px solid #FFAD5A;
+    border-radius: 100%;
+    margin-left: -6rem;
+    margin-top: 2rem;
+    
+}
+/* develop section ends  */
+/* community section starts  */
+.dev-flex2{
+    display: flex;
+    justify-content: center;
+    gap:400px;
+    margin: 40px 145px;
+}
+.orange-circle-2{
+    border: 30px solid #FFAD5A;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 21rem;
+}
+.devimg2{
+    position: absolute;
+    margin-left: -24rem;
+    margin-top: 2rem;
+}
+/* community section ends */
+/* corona section starts  */
+.coronapics{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.gocorona{
+    position: relative;
+    box-shadow:rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+#orbox1{
+    margin-top: -1.5rem;
+    margin-left: -1.5rem;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #FFAD5A;
+    border-radius: 20px;
+    box-shadow:rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+#orbox2{
+    position: absolute;
+    margin-top: 28rem;
+    width: 70px;
+    height: 70px;
+    background-color: #FFAD5A;
+    border-radius: 20px;
+    box-shadow:rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+#orbox3{
+    position: absolute;
+    margin-left: 14rem;
+    margin-top: 20rem;
+    width: 70px;
+    height: 70px;
+    background-color: #FFAD5A;
+    border-radius: 20px;
+    box-shadow:rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+/* corona section ends  */
+/* footer section  */
+footer{
+    display: flex;
+    background-color: black;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footerfonts{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+}
